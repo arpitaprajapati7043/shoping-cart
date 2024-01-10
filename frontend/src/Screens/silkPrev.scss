@@ -1,0 +1,33 @@
+/* style.scss */
+.product {
+    .slider-container {
+      position: relative;
+  
+      .slick-prev,
+      .slick-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1;
+        cursor: pointer;
+        font-size: 16px;
+       background-color: black;
+        width: 50px;
+     height:33px;
+        padding: 10px;
+       
+        color: brown;
+        border-radius: 15px;
+      }
+ 
+     
+      .slick-prev {
+        left: -30PX;
+      }
+  
+      .slick-next {
+        right: -30PX;
+      }
+    }
+  }
+  

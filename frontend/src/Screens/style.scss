@@ -1,0 +1,52 @@
+.product {
+    cursor: pointer;
+    .content {
+        height: 150px;
+        
+    }
+
+    .description {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        
+    }
+
+    .image {
+        height: 230px;
+        object-fit: contain;
+       
+    }
+
+    .text{
+        font-size: 13px;
+        color: #666;
+        text-decoration: none !important;
+    }
+    a {
+        text-decoration: none;
+        color: inherit; /* Optional: Retain the default link color */
+      }
+      
+      a:hover {
+        text-decoration: none; /* Remove underline on hover */
+       
+      }
+      
+     .prebtn{
+        border-color: blue solid;
+  border-style: dotted;
+  border-width: 5px;
+  border-color: brown;
+  margin-left: -90px;
+
+     }
+     .nextbtn{
+        border-color: blue solid;
+  border-style: dotted;
+  border-width: 5px;
+  border-color: brown;
+  margin-left: -90px;
+  margin-top: 250px;
+     }
+}
